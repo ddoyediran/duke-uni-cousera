@@ -50,3 +50,42 @@ print(result2)
 var image3 = new SimpleImage("usain.jpg");
 var result3 = swapRedGreen(image3);
 print(result3)
+
+
+
+
+
+/** 
+Write code to change the Duke blue devil (the image below on the left) to be yellow (as in the image below on the right).  Start by working this smaller 
+example by hand. You want to turn the image below on the left into the image below on the right. What are the steps you will need to take? Once you have 
+worked through this example by hand to determine the steps you will need to take, you can translate your algorithm into code.  
+*/
+
+
+// create an instance of the image
+var image4 = new SimpleImage("duke_blue_devil.png");
+
+ // declare swapBlueYellow function
+function swapBlueYellow(image){
+
+    // loop through the image pixel
+    for(var pixel of image.values()){
+        // check if the pixel is not white 
+        if(pixel.getRed() !== 255 && pixel.getGreen() !== 255 && pixel.getBlue() !== 255){
+            // change the blue value to 0, red to 255 and green to 255
+            pixel.setRed(255);
+            pixel.setGreen(255);
+            pixel.setBlue(0);
+        }
+            
+        // else: it is white 
+            // do nothing
+    }
+            
+    // return image
+    return image;
+}
+
+var result4 = swapBlueYellow(image4);
+print(result4);
+

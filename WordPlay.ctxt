@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=WordPlay
+comment1.params=ch
+comment1.target=boolean\ isVowel(char)
+comment1.text=\n\ isVowel\ \n\ helper\ method\ to\ determine\ if\ a\ character\ is\ a\ vowel.\n\ returns\ boolean\ -\ true\ if\ the\ character\ argument\ is\ a\ vowel\ and\ false\ if\ it\ is\ a\ consonant\n\ INPUTS\n\ \ \ ch\ of\ type\ char\n\ RETURNS\n\ \ \ boolean\ -\ true\ if\ the\ character\ argument\ is\ a\ vowel\ and\ false\ if\ it\ is\ a\ consonant\n
+comment2.params=phrase\ ch
+comment2.target=java.lang.StringBuilder\ replaceVowels(java.lang.StringBuilder,\ char)
+comment2.text=\n\ replaceVowels\ \n\ helper\ method\ to\ replace\ vowel(s)\ in\ string\ with\ a\ given\ character\n\ returns\ same\ string\ \ with\ vowel\ replaced\ with\ the\ character\n\ INPUTS\n\ \ \ phrase\ of\ type\ StringBuilder\n\ \ \ ch\ of\ type\ char\n\ RETURNS\n\ \ \ string\ -\ that\ has\ it\ vowel(s)\ replaced\ by\ the\ second\ argument\ character\n
+comment3.params=phrase\ ch
+comment3.target=java.lang.StringBuilder\ emphasize(java.lang.StringBuilder,\ char)
+comment3.text=\n\ emphasize\ \n\ helper\ method\ to\ replace\ a\ string\ in\ odd\ or\ even\ position\ with\ another\ character\n\ returns\ same\ string\ phrase\ with\ character\ in\ even\ or\ odd\ position\ replaced\ with\ another\ character\n\ INPUTS\n\ \ \ phrase\ of\ type\ StringBuilder\n\ \ \ ch\ of\ type\ char\n\ RETURNS\n\ \ \ string\ -\ that\ has\ it\ string\ in\ an\ even\ or\ odd\ position\ replaced\ by\ the\ second\ argument\ character\n
+comment4.params=testChar
+comment4.target=void\ testIsVowel(char)
+comment5.params=testChar
+comment5.target=void\ testReplaceVowels(char)
+comment6.params=
+comment6.target=void\ testEmphasize()
+numComments=7
